@@ -21,5 +21,17 @@ int main() {
         a++;
     } while (a <= 8);
 
+    int movimentocompleto = 1;
+    while (movimentocompleto --)
+    {
+      for (int i = 0 ; i < 2; i++) {
+        printf("cima \n");
+    }  /* code */
+    printf("diereita \n");
+    }
+    
+    
+    
+
     return 0;
 }
